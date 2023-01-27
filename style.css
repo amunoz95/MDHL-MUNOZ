@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.banner{
+    padding: 20px;
+    height: 300px;
+    /*border-radius: 28px;*/
+    width: 70%;
+    height: auto;
+    margin-left: 250px;
+    position: relative;
+}
+
+.club{
+    position:relative;
+    margin-left: 270px;
+    font-size: 80px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
