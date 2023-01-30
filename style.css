@@ -4,19 +4,58 @@
     padding: 0;
 }
 
-.banner{
-    padding: 20px;
-    height: 300px;
-    /*border-radius: 28px;*/
+header img{
     width: 70%;
     height: auto;
-    margin-left: 250px;
     position: relative;
+    left: 15%;
+    margin-top: 20px;
 }
 
-.club{
-    position:relative;
-    margin-left: 270px;
-    font-size: 80px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+header h1{
+    color: yellow;
+    font-size: 75px;
+    position: absolute;
+    margin-left: 15%;
+    top: 10px;
+
+}
+
+.logo{
+    position: relative;
+    margin-left: 70%;
+    margin-top: -80px;
+
+}
+
+.prueba a{
+    top: 20%;
+    color: black;
+    background-color: aqua;
+    display: block;
+    margin-left: 15%;
+}
+
+section h3 {
+    position: absolute;
+    margin-left: 70%;
+}
+
+section h4{
+    position: relative;
+    margin-left: 30%;
+}
+
+section h2{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: -382px;
+    text-align: center;
+}
+
+.hockey1{
+visibility: hidden;
 }
