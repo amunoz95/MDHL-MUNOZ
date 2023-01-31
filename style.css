@@ -22,38 +22,50 @@ header h1{
 }
 
 .logo{
-    position: relative;
-    margin-left: 70%;
-    margin-top: -80px;
-
-}
-
-.prueba a{
-    top: 20%;
-    color: black;
-    background-color: aqua;
-    display: block;
-    margin-left: 15%;
-}
-
-section h3 {
     position: absolute;
     margin-left: 70%;
-}
+    margin-top: 0;
+    top: 44%;
+    height: 200px;
+    z-index: 1;
+    
 
-section h4{
-    position: relative;
-    margin-left: 30%;
 }
 
 section h2{
+    position: absolute;
     background-color: black;
     color: white;
     font-size: 30px;
     margin-left: 15%;
     margin-right: 15%;
-    margin-top: -382px;
+    top: 52.7%;
+    width: 70%;
+    display: block;
     text-align: center;
+}
+
+.box{
+    display: inline-block;
+    position: absolute;
+    font-size: 20px;
+}
+
+.home{
+    top:59%;
+    margin-left: 15%;
+
+}
+
+.about{
+        top:68%;
+        margin-left: 15%;
+    
+}
+
+.contact{
+    top:77%;
+        margin-left: 15%;
 }
 
 .hockey1{
