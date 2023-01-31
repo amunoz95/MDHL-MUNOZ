@@ -13,11 +13,13 @@ header img{
 }
 
 header h1{
-    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
     font-size: 75px;
     position: absolute;
     margin-left: 15%;
     top: 10px;
+    -webkit-text-stroke: 0.3px yellow
 
 }
 
@@ -31,10 +33,11 @@ header h1{
 
 }
 
-section h2{
+.titulo{
     position: absolute;
     background-color: black;
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     margin-left: 15%;
     margin-right: 15%;
@@ -48,6 +51,7 @@ section h2{
     display: inline-block;
     position: absolute;
     font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .home{
@@ -71,6 +75,7 @@ section h2{
 .fecha{
     position: absolute;
     margin-left: 30%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .uno{
@@ -87,4 +92,92 @@ section h2{
 
 .hockey1{
 visibility: hidden;
+}
+
+
+
+.evento{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 33%;
+    opacity: 60%;
+}
+
+.primero{
+    top: 62%;
+}
+
+.segundo{
+    top: 71%;
+}
+
+.tercero{
+    top: 80%;
+}
+
+/*PAGE ABOUT*/
+
+.hockey2{
+    width: 200px;
+    position: absolute;
+    margin-left: 73%;
+    top: 67%;
+    border-radius: 20px;
+    opacity: 70%;
+}
+
+.subtitulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.mision{
+    position: absolute;
+    top: 60%;
+    margin-left: 24%;
+}
+
+.p1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    position: absolute;
+    top: 63%;
+    margin-left: 24%;
+    margin-right: 22%;
+    text-indent: 30px;
+    opacity: 80%;
+}
+
+.vision{
+    position: absolute;
+    top: 70%;
+    margin-left: 24%;
+}
+
+.p2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    position: absolute;
+    top: 73%;
+    margin-left: 24%;
+    margin-right: 22%;
+    text-indent: 30px;
+    opacity: 80%;
+}
+
+.general{
+    position: absolute;
+    top: 80%;
+    margin-left: 24%;
+}
+
+.p3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    position: absolute;
+    top: 83%;
+    margin-left: 24%;
+    margin-right: 22%;
+    text-indent: 30px;
+    opacity: 80%;
 }
