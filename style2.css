@@ -6,7 +6,8 @@
 
 /*LINK STYLE*/
 
-a:active {
+a:focus {
+    background-color: green;
 }
 
 /*nav a:hover{
