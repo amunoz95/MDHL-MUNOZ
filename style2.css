@@ -4,37 +4,44 @@
     padding: 0;
 }
 
+/*LINK STYLE*/
+
+a:active {
+}
+
+/*nav a:hover{
+    background-color: lime;
+}*/
+
 header img{
     width: 70%;
     height: auto;
     position: relative;
     left: 15%;
-    margin-top: 20px;
+    margin-top: 80px;
 }
 
 header h1{
     font-family: Arial, Helvetica, sans-serif;
     color: black;
-    font-size: 75px;
+    font-size: 50px;
     position: absolute;
     margin-left: 15%;
-    top: 10px;
+    top: 22px;
     -webkit-text-stroke: 0.3px yellow
 
 }
 
 .logo{
     position: absolute;
-    margin-left: 70%;
-    margin-top: 0;
-    top: 44%;
+    margin-left: 15%;
+    top: 65%;
     height: 200px;
     z-index: 1;
-
 }
 
 .titulo{
-    position: absolute;
+    position: relative;
     background-color: black;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -49,26 +56,37 @@ header h1{
 
 .box{
     display: inline-block;
-    position: absolute;
-    font-size: 20px;
+    position: relative;
+    font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+    background-color:rgb(48, 50, 192);
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    width: 130px;
+    text-align: center;
+    box-shadow: 3px 3px 2px black;
 }
 
 .home{
-    top:59%;
-    margin-left: 15%;
-
+    position: absolute;
+    top:7%;
+    margin-left: 62.5%;
 }
 
 .about{
-        top:68%;
-        margin-left: 15%;
+    position: absolute;
+    top:7%;
+    margin-left: 70%;
     
 }
 
 .contact{
-    top:77%;
-        margin-left: 15%;
+    position: absolute;
+    top:7%;
+    margin-left: 77.5%;
 }
 
 
@@ -79,15 +97,15 @@ header h1{
 }
 
 .uno{
-    top: 59%;
+    top: 70%;
 }
 
 .dos{
-    top: 68%;
+    top: 79%;
 }
 
 .tres{
-    top: 77%;
+    top: 88%;
 }
 
 .hockey1{
@@ -97,6 +115,7 @@ header h1{
     top: 65%;
     border-radius: 20px;
     opacity: 70%;
+
 }
 
 
@@ -109,15 +128,15 @@ header h1{
 }
 
 .primero{
-    top: 62%;
+    top: 73%;
 }
 
 .segundo{
-    top: 71%;
+    top: 82%;
 }
 
 .tercero{
-    top: 80%;
+    top: 91%;
 }
 
 /*PAGE ABOUT*/
@@ -138,16 +157,16 @@ header h1{
 
 .mision{
     position: absolute;
-    top: 60%;
-    margin-left: 24%;
+    top: 68%;
+    margin-left: 26%;
 }
 
 .p1{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
     position: absolute;
-    top: 63%;
-    margin-left: 24%;
+    top: 71%;
+    margin-left: 26%;
     margin-right: 22%;
     text-indent: 30px;
     opacity: 80%;
@@ -155,16 +174,16 @@ header h1{
 
 .vision{
     position: absolute;
-    top: 70%;
-    margin-left: 24%;
+    top: 78%;
+    margin-left: 26%;
 }
 
 .p2{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
     position: absolute;
-    top: 73%;
-    margin-left: 24%;
+    top: 81%;
+    margin-left: 26%;
     margin-right: 22%;
     text-indent: 30px;
     opacity: 80%;
@@ -172,16 +191,16 @@ header h1{
 
 .general{
     position: absolute;
-    top: 80%;
-    margin-left: 24%;
+    top: 88%;
+    margin-left: 26%;
 }
 
 .p3{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
     position: absolute;
-    top: 83%;
-    margin-left: 24%;
+    top: 91%;
+    margin-left: 26%;
     margin-right: 22%;
     text-indent: 30px;
     opacity: 80%;
@@ -202,7 +221,7 @@ header h1{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
     position: absolute;
-    top: 60%;
+    top: 70%;
     margin-left: 24%;
     margin-right: 22%;
     text-indent: 30px;
@@ -213,7 +232,7 @@ header h1{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
     position: absolute;
-    top: 64%;
+    top: 74%;
     margin-left: 24%;
     margin-right: 22%;
     text-indent: 30px;
