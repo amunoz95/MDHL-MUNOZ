@@ -1,0 +1,241 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*LINK STYLE*/
+
+a:focus {
+    background-color: green;
+}
+
+/*nav a:hover{
+    background-color: lime;
+}*/
+
+header img{
+    width: 70%;
+    height: auto;
+    position: relative;
+    left: 15%;
+    margin-top: 80px;
+}
+
+header h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 50px;
+    position: absolute;
+    margin-left: 15%;
+    top: 22px;
+    -webkit-text-stroke: 0.3px yellow
+
+}
+
+.logo{
+    position: absolute;
+    margin-left: 15%;
+    top: 65%;
+    height: 200px;
+    z-index: 1;
+}
+
+.titulo{
+    position: relative;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-left: 15%;
+    margin-right: 15%;
+    top: 52.7%;
+    width: 70%;
+    display: block;
+    text-align: center;
+}
+
+.box{
+    display: inline-block;
+    position: relative;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+    background-color:rgb(48, 50, 192);
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    width: 130px;
+    text-align: center;
+    box-shadow: 3px 3px 2px black;
+}
+
+.home{
+    position: absolute;
+    top:7%;
+    margin-left: 62.5%;
+}
+
+.about{
+    position: absolute;
+    top:7%;
+    margin-left: 70%;
+    
+}
+
+.contact{
+    position: absolute;
+    top:7%;
+    margin-left: 77.5%;
+}
+
+
+.fecha{
+    position: absolute;
+    margin-left: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.uno{
+    top: 70%;
+}
+
+.dos{
+    top: 79%;
+}
+
+.tres{
+    top: 88%;
+}
+
+.hockey1{
+    width: 250px;
+    position: absolute;
+    margin-left: 63%;
+    top: 65%;
+    border-radius: 20px;
+    opacity: 70%;
+
+}
+
+
+
+.evento{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 33%;
+    opacity: 60%;
+}
+
+.primero{
+    top: 73%;
+}
+
+.segundo{
+    top: 82%;
+}
+
+.tercero{
+    top: 91%;
+}
+
+/*PAGE ABOUT*/
+
+.hockey2{
+    width: 200px;
+    position: absolute;
+    margin-left: 73%;
+    top: 67%;
+    border-radius: 20px;
+    opacity: 70%;
+}
+
+.subtitulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.mision{
+    position: absolute;
+    top: 68%;
+    margin-left: 26%;
+}
+
+.p1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    position: absolute;
+    top: 71%;
+    margin-left: 26%;
+    margin-right: 22%;
+    text-indent: 30px;
+    opacity: 80%;
+}
+
+.vision{
+    position: absolute;
+    top: 78%;
+    margin-left: 26%;
+}
+
+.p2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    position: absolute;
+    top: 81%;
+    margin-left: 26%;
+    margin-right: 22%;
+    text-indent: 30px;
+    opacity: 80%;
+}
+
+.general{
+    position: absolute;
+    top: 88%;
+    margin-left: 26%;
+}
+
+.p3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    position: absolute;
+    top: 91%;
+    margin-left: 26%;
+    margin-right: 22%;
+    text-indent: 30px;
+    opacity: 80%;
+}
+
+/*PAGE CONTACT*/
+
+.hockey3{
+    width: 250px;
+    position: absolute;
+    margin-left: 63%;
+    top: 65%;
+    border-radius: 20px;
+    opacity: 70%;
+}
+
+.email{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    position: absolute;
+    top: 70%;
+    margin-left: 24%;
+    margin-right: 22%;
+    text-indent: 30px;
+    opacity: 80%;
+}
+
+.reply{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    position: absolute;
+    top: 74%;
+    margin-left: 24%;
+    margin-right: 22%;
+    text-indent: 30px;
+    opacity: 80%;
+}
