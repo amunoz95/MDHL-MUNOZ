@@ -4,7 +4,11 @@
     padding: 0;
 }
 
+
+
+
 /*LINK STYLE*/
+/*
 
 a:focus {
     background-color: green;
@@ -12,7 +16,7 @@ a:focus {
 
 /*nav a:hover{
     background-color: lime;
-}*/
+}
 
 header img{
     border-radius: 15px;
@@ -30,7 +34,7 @@ header h1{
     position: absolute;
     margin-left: 15%;
     top: 22px;
-    /*-webkit-text-stroke: 0.2px yellow*/
+    /*-webkit-text-stroke: 0.2px yellow
 
 }
 
@@ -143,7 +147,7 @@ header h1{
     top: 91%;
 }
 
-/*PAGE ABOUT*/
+/*PAGE ABOUT
 
 .hockey2{
     width: 200px;
@@ -213,7 +217,7 @@ header h1{
     text-align: justify;
 }
 
-/*PAGE CONTACT*/
+/*PAGE CONTACT
 
 .hockey3{
     width: 250px;
@@ -245,3 +249,5 @@ header h1{
     text-indent: 30px;
     opacity: 80%;
 }
+
+*/
