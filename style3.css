@@ -4,25 +4,6 @@
     padding: 0;
 }
 
-body{
-    display: flex;
-    flex-wrap: wrap;
-    background-color: aqua;
-    margin-left: 15%;
-    margin-right: 15%;
-    align-items: flex-end;
-}
-
-header img{
-    justify-content: center;
-    background-color: blue;
-
-}
-
-header img{
-    width: 70%;
-}
-
 
 /*LINK STYLE*/
 /*
@@ -33,34 +14,58 @@ a:focus {
 
 /*nav a:hover{
     background-color: lime;
+}*/
+
+header{
+    width: 100%;
+    flex-direction: column-reverse;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
 }
 
 header img{
+    align-self: center;
     border-radius: 15px;
     width: 70%;
     height: auto;
-    position: relative;
-    left: 15%;
-    margin-top: 80px;
-}
+    
 
-header h1{
+ }
+
+ header h1{
+    
     font-family: Arial, Helvetica, sans-serif;
     color:rgb(16, 17, 107);
-    font-size: 50px;
-    position: absolute;
-    margin-left: 15%;
-    top: 22px;
-    /*-webkit-text-stroke: 0.2px yellow
+    display: flex;
+    width: 70%;
+    font-size: 35px;
 
-}
+ }
 
-.logo{
+ .loguito{
+    width: 100%;
+    flex-direction: column-reverse;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+ }
+
+
+ .logo{
+    width: 200px;
     position: absolute;
-    margin-left: 15%;
-    top: 50%;
-    height: 200px;
+    top: 35%;
+    left: 15%;
     z-index: 1;
+ }
+
+.seccion1{
+    flex-direction: column;
+    display: flex;
+    max-width: 100%;
+
 }
 
 .titulo{
@@ -70,17 +75,24 @@ header h1{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
-    margin-left: 15%;
-    margin-right: 15%;
-    top: 52.7%;
     width: 70%;
-    display: block;
     text-align: center;
+    align-self: center;
+}
+
+nav{
+    position: absolute;
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+    top: 7%;
+    left: 65.5%;
 }
 
 .box{
-    display: inline-block;
-    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
@@ -89,58 +101,63 @@ header h1{
     border-color: black;
     border-width: 2px;
     border-style: solid;
-    width: 130px;
     text-align: center;
     box-shadow: 3px 3px 2px black;
     border-radius: 4px;
 }
 
 .home{
-    position: absolute;
-    top:7%;
-    margin-left: 62.5%;
+    width: 100px;
+    justify-content: center;
 }
 
 .about{
-    position: absolute;
-    top:7%;
-    margin-left: 70%;
-    
+    width: 100px;
+    justify-content: center;
 }
 
 .contact{
-    position: absolute;
-    top:7%;
-    margin-left: 77.5%;
+    width: 130px;
+    justify-content: center;
 }
 
 
+/*fechas*/
+
 .fecha{
+    color: black;
     position: absolute;
-    margin-left: 15%;
     font-family: Arial, Helvetica, sans-serif;
+    margin-left: 18%;
+    opacity: 60%;
 }
 
 .uno{
-    top: 70%;
+    top: 59%;
 }
 
 .dos{
-    top: 79%;
+    top: 68%;
 }
 
 .tres{
-    top: 88%;
+    top: 79%;
+}
+
+.hockey11{
+    display: flex;
+    justify-content:center;
+    opacity: 70%;
+    max-width: 70%;
+    
 }
 
 .hockey1{
-    width: 350px;
     position: absolute;
-    margin-left: 65%;
-    top: 70%;
-    border-radius: 20px;
-    opacity: 70%;
-
+    left: 65%;
+    border-radius: 10px;
+    margin-top: 10px;
+    align-items: center;
 }
 
 
@@ -153,18 +170,18 @@ header h1{
 }
 
 .primero{
-    top: 73%;
+    top: 63%;
 }
 
 .segundo{
-    top: 82%;
+    top: 72%;
 }
 
 .tercero{
-    top: 91%;
+    top: 83%;
 }
 
-/*PAGE ABOUT
+/*PAGE ABOUT*/
 
 .hockey2{
     width: 200px;
@@ -182,7 +199,7 @@ header h1{
 
 .mision{
     position: absolute;
-    top: 70%;
+    top: 61%;
     margin-left: 15%;
 }
 
@@ -190,7 +207,7 @@ header h1{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
     position: absolute;
-    top: 73%;
+    top: 65%;
     margin-left: 15%;
     margin-right: 28%;
     text-indent: 30px;
@@ -200,7 +217,7 @@ header h1{
 
 .vision{
     position: absolute;
-    top: 80%;
+    top: 73%;
     margin-left: 15%;
 }
 
@@ -208,7 +225,7 @@ header h1{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
     position: absolute;
-    top: 83%;
+    top: 76%;
     margin-left: 15%;
     margin-right: 28%;
     text-indent: 30px;
@@ -218,7 +235,7 @@ header h1{
 
 .general{
     position: absolute;
-    top: 88%;
+    top: 82%;
     margin-left: 15%;
 }
 
@@ -226,7 +243,7 @@ header h1{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
     position: absolute;
-    top: 91%;
+    top: 86%;
     margin-left: 15%;
     margin-right: 28%;
     text-indent: 30px;
@@ -234,7 +251,7 @@ header h1{
     text-align: justify;
 }
 
-/*PAGE CONTACT
+/*PAGE CONTACT*/
 
 .hockey3{
     width: 250px;
@@ -266,5 +283,3 @@ header h1{
     text-indent: 30px;
     opacity: 80%;
 }
-
-*/
